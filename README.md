@@ -7,5 +7,20 @@
 ### How To Use？
 
 ```bash
-npm install
+npm i pandacomment
 ```
+
+```javascript
+import {PandaComment} from 'pandacomment'
+
+//In vue template
+
+components: {
+    PandaComment
+  }
+
+```
+
+### LICENSE
+
+Copyright (c) 2018 Bill Wang
