@@ -1,0 +1,23 @@
+{
+  "name": "pandacomment",
+  "version": "1.0.0",
+  "description": "VueBasedCommentComponent",
+  "main": "main",
+  "scripts": {
+    "test": "node main"
+  },
+  "keywords": [
+    "npm",
+    "Vue",
+    "Comment",
+    "Component"
+  ],
+  "author": "vuejs@vip.qq.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bigbigDreamer/PandaComment"},
+  "library": "PandaComment",
+  "libraryTarget": "umd",
+  "umdNamedDefine": true
+}
