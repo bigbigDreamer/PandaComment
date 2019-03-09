@@ -37,4 +37,4 @@ export default {
 
 ### LICENSE
 
-Copyright (c) 2018 Eric Wang
+Copyright (c) 2019 Eric Wang
