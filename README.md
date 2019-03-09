@@ -1,4 +1,4 @@
-# PandaCommentComponent
+# :panda_face:PandaCommentComponent
 
 ![](https://img.shields.io/badge/Open%20Source-ByEricWang-orange.svg)
 ![](https://img.shields.io/badge/pandacomment-V1.0.7-brightgreen.svg)
@@ -44,7 +44,7 @@ export default {
 ```
 ### 效果演示
 
-![alt](https://github.com/bigbigDreamer/PandaComment/blob/master/imgBox/demo.gif?raw=true)
+![alt](https://github.com/bigbigDreamer/GraphBed/blob/master/MyBlogImg/demo1.gif?raw=true)
 
 
 ### LICENSE
