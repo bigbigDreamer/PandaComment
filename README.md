@@ -10,17 +10,31 @@
 npm i pandacomment
 ```
 
+#### InTheTemplate
+
 ```javascript
 import {PandaComment} from 'pandacomment'
 
 //In vue template
 
-components: {
-    PandaComment
-  }
+export default {
+    components: {
+        PandaComment
+      }
+}
 
 ```
 
+```vue
+<div>
+<PandaComment/>
+</div>
+```
+### 效果演示
+
+![alt](./imgBox/demo.gif)
+
+
 ### LICENSE
 
-Copyright (c) 2018 Bill Wang
+Copyright (c) 2018 Eric Wang
