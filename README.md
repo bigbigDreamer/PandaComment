@@ -1,7 +1,8 @@
 # :panda_face:PandaCommentComponent
 
-![](https://img.shields.io/badge/Open%20Source-ByEricWang-orange.svg)
-![](https://img.shields.io/badge/pandacomment-V1.0.7-brightgreen.svg)
+[![](https://img.shields.io/badge/Open%20Source-ByEricWang-orange.svg)](https://github.com/bigbigDreamer)
+[![](https://img.shields.io/badge/downloads-271%2FW-brightgreen.svg)]( http://npmcharts.com/compare/pandacomment)
+[![](https://img.shields.io/badge/pandacomment-V1.0.7-brightgreen.svg)](https://www.npmjs.com/package/pandacomment)
 ![](https://img.shields.io/badge/npm-V6.7.0-brightgreen.svg)
 ![](https://img.shields.io/badge/vue-2.x-brightgreen.svg)
 
