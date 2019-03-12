@@ -34,18 +34,18 @@ export default {
 ```vue
 <div>
 <PandaComment :commentList = "[
-{
-   username:'',
-   content:'', 
-}
-]"/>
+   {
+      username:'',
+      content:'', 
+   }
+   ]"/>
 </div>
 //The commentList this prop is of type Array. Note that you must keep the field name consistent!
 
 ```
 ### 效果演示
 
-![alt](https://github.com/bigbigDreamer/GraphBed/blob/master/MyBlogImg/demo1.gif?raw=true)
+![alt](https://github.com/bigbigDreamer/GraphBed/blob/master/MyBlogImg/demo2.gif?raw=true)
 
 
 ### LICENSE
