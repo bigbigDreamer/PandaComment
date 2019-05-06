@@ -18,13 +18,13 @@
       <div class="dividingLine"></div>
       <br>
       <div class="usersCommentList" v-for="(item,index) in commentLists" :key="index">
-        <img src="https://ivu1314.club/images/logo.jpg" alt="alt">
+        <img :src="logo" alt="alt" ref="logo">
         <span class="username">{{item.username}}</span>
         <div class="commentContent">
           {{item.content}}
         </div>
         <div class="commentTime">
-          <i class="fa fa-calendar" aria-hidden="true"></i> {{nowDate}}
+          <i class="fa fa-calendar" aria-hidden="true"></i> {{item.nowDate}}
         </div>
         <div class="dividing_line"></div>
       </div>
@@ -40,22 +40,17 @@ export default {
       default () {
         return [
           {
-            username: '灼华',
-            content: '我爱你'
+            username: 'EricWang',
+            content: 'I love this World! I love China!!!',
+            nowDate: '1945.10.1 8:00'
           },
-          {
-            username: '灼华',
-            content: '我爱你'
-          },
-          {
-            username: '灼华',
-            content: '我爱你'
-          },
-          {
-            username: '灼华',
-            content: '我爱你'
-          }
         ]
+      }
+    },
+    logo:{
+      type:String,
+      default(){
+        return 'https://avatar-static.segmentfault.com/928/619/928619883-5b164a92bff52_big64'//https://ivu1314.club/images/logo.jpg';
       }
     }
   },
@@ -69,10 +64,12 @@ export default {
     }
   },
   methods: {
+
     publishComment () {
       this.commentLists.push({
         username: '灼华',
-        content: this.defaultCommentContent
+        content: this.defaultCommentContent,
+        nowDate: new Date().getFullYear() + '.' + (Number.parseInt(new Date().getMonth()) + 1) + '.' + new Date().getDate() + '  ' + new Date().getHours() + ':' + new Date().getMinutes()
       })
     }
   },
@@ -111,9 +108,9 @@ export default {
 
     .circle {
       position: relative;
-      top:44px;
+      top:25px;
       left: 25px;
-      width: 110px;
+      width: 120px;
       height: 80px;
       z-index: -1;
       border-top-left-radius: 90px;
@@ -151,8 +148,8 @@ export default {
       margin-top: 8px;
       border-radius: 30px;
       border-bottom-left-radius: unset;
-      padding-left: 20px;
-      padding-top: 10px;
+      padding-left: 10px;
+      padding-top: 5px;
       font-size: 18px;
       .fontStyle();
 
@@ -162,7 +159,7 @@ export default {
         border: 8px solid;
         border-color: transparent #70BE70 transparent transparent;
         position: absolute;
-        top: 24px;
+        top: 13px;
         left: -16px;
         overflow: hidden;
       }

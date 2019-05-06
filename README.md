@@ -39,8 +39,9 @@ export default {
    {
       username:'',
       content:'', 
+      nowDate:'',//note ，if you publish comment , the component can record now time
    }
-   ]"/>
+   ]" :logo="your avatarUrl"/>
 </div>
 //The commentList this prop is of type Array. Note that you must keep the field name consistent!
 
